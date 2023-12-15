@@ -1,0 +1,108 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"build/_deps/glslang-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 363,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 369,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/glslang",
+			"exportName" : "glslang-targets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "OSDependent::@feca7af59e2bba58762f",
+					"index" : 36
+				},
+				{
+					"id" : "glslang::@23f3d2d2f0e12dc81900",
+					"index" : 46
+				},
+				{
+					"id" : "MachineIndependent::@23f3d2d2f0e12dc81900",
+					"index" : 23
+				},
+				{
+					"id" : "GenericCodeGen::@23f3d2d2f0e12dc81900",
+					"index" : 21
+				},
+				{
+					"id" : "glslang-default-resource-limits::@23f3d2d2f0e12dc81900",
+					"index" : 47
+				},
+				{
+					"id" : "OGLCompiler::@5b2e9decffe47c2d8cc7",
+					"index" : 35
+				},
+				{
+					"id" : "glslangValidator::@e15ada61154cbe77892b",
+					"index" : 48
+				},
+				{
+					"id" : "spirv-remap::@e15ada61154cbe77892b",
+					"index" : 50
+				},
+				{
+					"id" : "SPVRemapper::@1703e2c8bfb00bee5e00",
+					"index" : 43
+				},
+				{
+					"id" : "SPIRV::@1703e2c8bfb00bee5e00",
+					"index" : 42
+				},
+				{
+					"id" : "HLSL::@14ecbbc95561ebdf643e",
+					"index" : 22
+				}
+			],
+			"paths" : 
+			[
+				"_deps/glslang-build/CMakeFiles/Export/43b0efddc38c54c95da93ebc2a9ba55e/glslang-targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/glslang",
+			"paths" : 
+			[
+				"build/_deps/glslang-build/glslang-config.cmake",
+				"build/_deps/glslang-build/glslang-config-version.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/glslang-build",
+		"source" : "build/_deps/glslang-src"
+	}
+}

@@ -1,0 +1,130 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"build/_deps/glslang-src/SPIRV/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 117,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 120,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 133,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 145,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"bin/libSPVRemapper.a"
+			],
+			"targetId" : "SPVRemapper::@1703e2c8bfb00bee5e00",
+			"targetIndex" : 43,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"bin/libSPIRV.a"
+			],
+			"targetId" : "SPIRV::@1703e2c8bfb00bee5e00",
+			"targetIndex" : 42,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake",
+			"paths" : 
+			[
+				"build/_deps/glslang-build/SPIRV/SPVRemapperTargets.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake",
+			"paths" : 
+			[
+				"build/_deps/glslang-build/SPIRV/SPIRVTargets.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "include/glslang/SPIRV",
+			"paths" : 
+			[
+				"build/_deps/glslang-src/SPIRV/bitutils.h",
+				"build/_deps/glslang-src/SPIRV/spirv.hpp",
+				"build/_deps/glslang-src/SPIRV/GLSL.std.450.h",
+				"build/_deps/glslang-src/SPIRV/GLSL.ext.EXT.h",
+				"build/_deps/glslang-src/SPIRV/GLSL.ext.KHR.h",
+				"build/_deps/glslang-src/SPIRV/GlslangToSpv.h",
+				"build/_deps/glslang-src/SPIRV/hex_float.h",
+				"build/_deps/glslang-src/SPIRV/Logger.h",
+				"build/_deps/glslang-src/SPIRV/SpvBuilder.h",
+				"build/_deps/glslang-src/SPIRV/spvIR.h",
+				"build/_deps/glslang-src/SPIRV/doc.h",
+				"build/_deps/glslang-src/SPIRV/SpvTools.h",
+				"build/_deps/glslang-src/SPIRV/disassemble.h",
+				"build/_deps/glslang-src/SPIRV/GLSL.ext.AMD.h",
+				"build/_deps/glslang-src/SPIRV/GLSL.ext.NV.h",
+				"build/_deps/glslang-src/SPIRV/GLSL.ext.ARM.h",
+				"build/_deps/glslang-src/SPIRV/NonSemanticDebugPrintf.h",
+				"build/_deps/glslang-src/SPIRV/NonSemanticShaderDebugInfo100.h",
+				"build/_deps/glslang-src/SPIRV/SPVRemapper.h",
+				"build/_deps/glslang-src/SPIRV/doc.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/glslang-build/SPIRV",
+		"source" : "build/_deps/glslang-src/SPIRV"
+	}
+}

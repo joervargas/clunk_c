@@ -1,0 +1,879 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						16,
+						19
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "ThirdParty",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						12,
+						13,
+						14,
+						15
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ThirdParty-Debug-a29567a51ddf8bd8c0e2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "ThirdParty"
+				},
+				{
+					"build" : "_deps/sdl2-build",
+					"jsonFile" : "directory-_deps.sdl2-build-Debug-cd006e24a7567a80ef7e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "build/_deps/sdl2-src",
+					"targetIndexes" : 
+					[
+						38,
+						39,
+						40,
+						41,
+						49,
+						51
+					]
+				},
+				{
+					"build" : "_deps/glslang-build",
+					"childIndexes" : 
+					[
+						4,
+						5,
+						7,
+						8,
+						9,
+						10,
+						11
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.glslang-build-Debug-640c9743ad6689f31a2a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "build/_deps/glslang-src",
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34
+					]
+				},
+				{
+					"build" : "_deps/glslang-build/External",
+					"jsonFile" : "directory-_deps.glslang-build.External-Debug-ea84ea547de5a787f4a4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14.0"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "build/_deps/glslang-src/External"
+				},
+				{
+					"build" : "_deps/glslang-build/glslang",
+					"childIndexes" : 
+					[
+						6
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.glslang-build.glslang-Debug-2297b83078efa6b33a15.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14.0"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "build/_deps/glslang-src/glslang",
+					"targetIndexes" : 
+					[
+						21,
+						23,
+						46,
+						47
+					]
+				},
+				{
+					"build" : "_deps/glslang-build/glslang/OSDependent/Unix",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.glslang-build.glslang.OSDependent.Unix-Debug-4465dc90bf38dc3f7f4b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14.0"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 2,
+					"source" : "build/_deps/glslang-src/glslang/OSDependent/Unix",
+					"targetIndexes" : 
+					[
+						36
+					]
+				},
+				{
+					"build" : "_deps/glslang-build/OGLCompilersDLL",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.glslang-build.OGLCompilersDLL-Debug-8decf54675e82986d601.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14.0"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "build/_deps/glslang-src/OGLCompilersDLL",
+					"targetIndexes" : 
+					[
+						35
+					]
+				},
+				{
+					"build" : "_deps/glslang-build/StandAlone",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.glslang-build.StandAlone-Debug-b3b893fabda303decd8b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14.0"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "build/_deps/glslang-src/StandAlone",
+					"targetIndexes" : 
+					[
+						48,
+						50
+					]
+				},
+				{
+					"build" : "_deps/glslang-build/SPIRV",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.glslang-build.SPIRV-Debug-76db30a8b29751566b99.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14.0"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "build/_deps/glslang-src/SPIRV",
+					"targetIndexes" : 
+					[
+						42,
+						43
+					]
+				},
+				{
+					"build" : "_deps/glslang-build/hlsl",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.glslang-build.hlsl-Debug-e62f583f45723e8d6ae0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14.0"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "build/_deps/glslang-src/hlsl",
+					"targetIndexes" : 
+					[
+						22
+					]
+				},
+				{
+					"build" : "_deps/glslang-build/gtests",
+					"jsonFile" : "directory-_deps.glslang-build.gtests-Debug-b3a1d00cd47cd56d5231.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14.0"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "build/_deps/glslang-src/gtests"
+				},
+				{
+					"build" : "ThirdParty/Json",
+					"jsonFile" : "directory-ThirdParty.Json-Debug-16b5dcc2d440c15605b4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "ThirdParty/Json"
+				},
+				{
+					"build" : "ThirdParty/STB_Image",
+					"jsonFile" : "directory-ThirdParty.STB_Image-Debug-c7e232e34b25e4962ef8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "ThirdParty/STB_Image",
+					"targetIndexes" : 
+					[
+						44
+					]
+				},
+				{
+					"build" : "ThirdParty/MeshOptimizer",
+					"jsonFile" : "directory-ThirdParty.MeshOptimizer-Debug-d1c833fc9489f12385a3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "ThirdParty/MeshOptimizer",
+					"targetIndexes" : 
+					[
+						24
+					]
+				},
+				{
+					"build" : "ThirdParty/VkMemAllocator",
+					"jsonFile" : "directory-ThirdParty.VkMemAllocator-Debug-fbecdf28bc63ceefee53.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "ThirdParty/VkMemAllocator",
+					"targetIndexes" : 
+					[
+						45
+					]
+				},
+				{
+					"build" : "ClunkEngine",
+					"childIndexes" : 
+					[
+						17,
+						18
+					],
+					"jsonFile" : "directory-ClunkEngine-Debug-ea2ebc5680e1084f50b6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "ClunkEngine",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "ClunkEngine/ClunkEngine/PCH",
+					"jsonFile" : "directory-ClunkEngine.ClunkEngine.PCH-Debug-86eb8c46dc9617759629.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 3,
+					"source" : "ClunkEngine/ClunkEngine/PCH",
+					"targetIndexes" : 
+					[
+						37
+					]
+				},
+				{
+					"build" : "ClunkEngine/ClunkEngine/Core",
+					"jsonFile" : "directory-ClunkEngine.ClunkEngine.Core-Debug-8e7fcc0d2685ed8f81d1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 3,
+					"source" : "ClunkEngine/ClunkEngine/Core",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "ClunkyEditor",
+					"jsonFile" : "directory-ClunkyEditor-Debug-16f4b8d91d907b3709e1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "ClunkyEditor",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						12,
+						13,
+						14,
+						15
+					],
+					"name" : "Project",
+					"targetIndexes" : 
+					[
+						24,
+						44,
+						45
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "SDL2",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						38,
+						39,
+						40,
+						41,
+						49,
+						51
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					],
+					"name" : "glslang",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						42,
+						43,
+						46,
+						47,
+						48,
+						50
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						16,
+						17,
+						18
+					],
+					"name" : "ClunkEngine",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						11,
+						37
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						19
+					],
+					"name" : "ClunkyEditor",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 16,
+					"id" : "ClunkEngine::@cba978cce3cb5992caf6",
+					"jsonFile" : "target-ClunkEngine-Debug-d763a8901851b958f06a.json",
+					"name" : "ClunkEngine",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "ClunkyEditor::@c45ca5851c549f0e6f25",
+					"jsonFile" : "target-ClunkyEditor-Debug-4d0772915a695aeff0f1.json",
+					"name" : "ClunkyEditor",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "Continuous::@d2a532d5b65956c17176",
+					"jsonFile" : "target-Continuous-Debug-7527a44c4b5454cb3b26.json",
+					"name" : "Continuous",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ContinuousBuild::@d2a532d5b65956c17176",
+					"jsonFile" : "target-ContinuousBuild-Debug-dcb197834937de86ff41.json",
+					"name" : "ContinuousBuild",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ContinuousConfigure::@d2a532d5b65956c17176",
+					"jsonFile" : "target-ContinuousConfigure-Debug-0b24945d06f8bd27bc3f.json",
+					"name" : "ContinuousConfigure",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ContinuousCoverage::@d2a532d5b65956c17176",
+					"jsonFile" : "target-ContinuousCoverage-Debug-3fadb90474312bc98f5f.json",
+					"name" : "ContinuousCoverage",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ContinuousMemCheck::@d2a532d5b65956c17176",
+					"jsonFile" : "target-ContinuousMemCheck-Debug-14acc5065abae5709928.json",
+					"name" : "ContinuousMemCheck",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ContinuousStart::@d2a532d5b65956c17176",
+					"jsonFile" : "target-ContinuousStart-Debug-e99dd33f9a1759df25e4.json",
+					"name" : "ContinuousStart",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ContinuousSubmit::@d2a532d5b65956c17176",
+					"jsonFile" : "target-ContinuousSubmit-Debug-c40161ac979f83b9b46b.json",
+					"name" : "ContinuousSubmit",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ContinuousTest::@d2a532d5b65956c17176",
+					"jsonFile" : "target-ContinuousTest-Debug-04ba1551caf3eabe40e1.json",
+					"name" : "ContinuousTest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ContinuousUpdate::@d2a532d5b65956c17176",
+					"jsonFile" : "target-ContinuousUpdate-Debug-2d34f1859cd398ed8af0.json",
+					"name" : "ContinuousUpdate",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "Core::@f70097ef26d84b4bf5a1",
+					"jsonFile" : "target-Core-Debug-a81bd3b6f9a6a83d7c05.json",
+					"name" : "Core",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "Experimental::@d2a532d5b65956c17176",
+					"jsonFile" : "target-Experimental-Debug-071c194e3fccec8aaa08.json",
+					"name" : "Experimental",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ExperimentalBuild::@d2a532d5b65956c17176",
+					"jsonFile" : "target-ExperimentalBuild-Debug-d447ac1fa1efa4cf71ff.json",
+					"name" : "ExperimentalBuild",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ExperimentalConfigure::@d2a532d5b65956c17176",
+					"jsonFile" : "target-ExperimentalConfigure-Debug-5ca56c0a2fba726b5622.json",
+					"name" : "ExperimentalConfigure",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ExperimentalCoverage::@d2a532d5b65956c17176",
+					"jsonFile" : "target-ExperimentalCoverage-Debug-05d6a3b14230e8e4b759.json",
+					"name" : "ExperimentalCoverage",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ExperimentalMemCheck::@d2a532d5b65956c17176",
+					"jsonFile" : "target-ExperimentalMemCheck-Debug-4c3d12c752ce830c33be.json",
+					"name" : "ExperimentalMemCheck",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ExperimentalStart::@d2a532d5b65956c17176",
+					"jsonFile" : "target-ExperimentalStart-Debug-ae0c231aba68e2d6258a.json",
+					"name" : "ExperimentalStart",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ExperimentalSubmit::@d2a532d5b65956c17176",
+					"jsonFile" : "target-ExperimentalSubmit-Debug-a507821de009a75407d8.json",
+					"name" : "ExperimentalSubmit",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ExperimentalTest::@d2a532d5b65956c17176",
+					"jsonFile" : "target-ExperimentalTest-Debug-8f510b98acf0c22452ff.json",
+					"name" : "ExperimentalTest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ExperimentalUpdate::@d2a532d5b65956c17176",
+					"jsonFile" : "target-ExperimentalUpdate-Debug-6b4408aeae7911191cd0.json",
+					"name" : "ExperimentalUpdate",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "GenericCodeGen::@23f3d2d2f0e12dc81900",
+					"jsonFile" : "target-GenericCodeGen-Debug-f1d72b52adc7e3706ab0.json",
+					"name" : "GenericCodeGen",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "HLSL::@14ecbbc95561ebdf643e",
+					"jsonFile" : "target-HLSL-Debug-96bfaa08a34a23a3f4a7.json",
+					"name" : "HLSL",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "MachineIndependent::@23f3d2d2f0e12dc81900",
+					"jsonFile" : "target-MachineIndependent-Debug-441a41c836eff7ba91af.json",
+					"name" : "MachineIndependent",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "MeshOptimizer::@9ef63efdf64f6de5d938",
+					"jsonFile" : "target-MeshOptimizer-Debug-cb57978740e40b01d3d5.json",
+					"name" : "MeshOptimizer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "Nightly::@d2a532d5b65956c17176",
+					"jsonFile" : "target-Nightly-Debug-5a1a490484e3fea7318b.json",
+					"name" : "Nightly",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "NightlyBuild::@d2a532d5b65956c17176",
+					"jsonFile" : "target-NightlyBuild-Debug-e84b04e421209abc329e.json",
+					"name" : "NightlyBuild",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "NightlyConfigure::@d2a532d5b65956c17176",
+					"jsonFile" : "target-NightlyConfigure-Debug-b57409f29decfaca85b7.json",
+					"name" : "NightlyConfigure",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "NightlyCoverage::@d2a532d5b65956c17176",
+					"jsonFile" : "target-NightlyCoverage-Debug-bc544f22e07633e64a28.json",
+					"name" : "NightlyCoverage",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "NightlyMemCheck::@d2a532d5b65956c17176",
+					"jsonFile" : "target-NightlyMemCheck-Debug-19b2311e0d8dd0bf0f50.json",
+					"name" : "NightlyMemCheck",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "NightlyMemoryCheck::@d2a532d5b65956c17176",
+					"jsonFile" : "target-NightlyMemoryCheck-Debug-09d3a7c49a2f65ae3944.json",
+					"name" : "NightlyMemoryCheck",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "NightlyStart::@d2a532d5b65956c17176",
+					"jsonFile" : "target-NightlyStart-Debug-815d09d3f0149252f4de.json",
+					"name" : "NightlyStart",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "NightlySubmit::@d2a532d5b65956c17176",
+					"jsonFile" : "target-NightlySubmit-Debug-2e898d5ca7a72214cd9f.json",
+					"name" : "NightlySubmit",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "NightlyTest::@d2a532d5b65956c17176",
+					"jsonFile" : "target-NightlyTest-Debug-2862018cca4fc697313b.json",
+					"name" : "NightlyTest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "NightlyUpdate::@d2a532d5b65956c17176",
+					"jsonFile" : "target-NightlyUpdate-Debug-b7926ad9adae1e5eb2a3.json",
+					"name" : "NightlyUpdate",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "OGLCompiler::@5b2e9decffe47c2d8cc7",
+					"jsonFile" : "target-OGLCompiler-Debug-6935518caa0e49035e5b.json",
+					"name" : "OGLCompiler",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "OSDependent::@feca7af59e2bba58762f",
+					"jsonFile" : "target-OSDependent-Debug-eab62a8f2bcbc8d131d8.json",
+					"name" : "OSDependent",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "PCH::@c1d7a52b19d6a3f47db6",
+					"jsonFile" : "target-PCH-Debug-dd82a7585e9e58af9a0d.json",
+					"name" : "PCH",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "SDL2::@45bd952f1071c035638d",
+					"jsonFile" : "target-SDL2-Debug-bc9ff7b4790aea76a20f.json",
+					"name" : "SDL2",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "SDL2-static::@45bd952f1071c035638d",
+					"jsonFile" : "target-SDL2-static-Debug-f9f0adab90dff9fbe2bb.json",
+					"name" : "SDL2-static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "SDL2_test::@45bd952f1071c035638d",
+					"jsonFile" : "target-SDL2_test-Debug-6b9ec715f448567f3ee0.json",
+					"name" : "SDL2_test",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "SDL2main::@45bd952f1071c035638d",
+					"jsonFile" : "target-SDL2main-Debug-4999658a442b9d87130a.json",
+					"name" : "SDL2main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "SPIRV::@1703e2c8bfb00bee5e00",
+					"jsonFile" : "target-SPIRV-Debug-1f25bb1782187b5cf3b8.json",
+					"name" : "SPIRV",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "SPVRemapper::@1703e2c8bfb00bee5e00",
+					"jsonFile" : "target-SPVRemapper-Debug-91f37133c4c5edd9f558.json",
+					"name" : "SPVRemapper",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "STB_Image::@e836e6c8a5ee032d44f6",
+					"jsonFile" : "target-STB_Image-Debug-d7936af6eeaa0546f508.json",
+					"name" : "STB_Image",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "VkMemAllocator::@197e37915b888bd96ec8",
+					"jsonFile" : "target-VkMemAllocator-Debug-881f7ccaf1834efbd4b2.json",
+					"name" : "VkMemAllocator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "glslang::@23f3d2d2f0e12dc81900",
+					"jsonFile" : "target-glslang-Debug-1722a9844fefab0df3d4.json",
+					"name" : "glslang",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "glslang-default-resource-limits::@23f3d2d2f0e12dc81900",
+					"jsonFile" : "target-glslang-default-resource-limits-Debug-8d2b67e4246552e11cec.json",
+					"name" : "glslang-default-resource-limits",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "glslangValidator::@e15ada61154cbe77892b",
+					"jsonFile" : "target-glslangValidator-Debug-ea7b24931eb56bc97cf7.json",
+					"name" : "glslangValidator",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "sdl_headers_copy::@45bd952f1071c035638d",
+					"jsonFile" : "target-sdl_headers_copy-Debug-3caeccc84f0385b3b37c.json",
+					"name" : "sdl_headers_copy",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "spirv-remap::@e15ada61154cbe77892b",
+					"jsonFile" : "target-spirv-remap-Debug-0a843c20fdacd398fa97.json",
+					"name" : "spirv-remap",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "uninstall::@45bd952f1071c035638d",
+					"jsonFile" : "target-uninstall-Debug-e7588fa248e82959cee5.json",
+					"name" : "uninstall",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/joe/Projects/C/clunk_c/build",
+		"source" : "/home/joe/Projects/C/clunk_c"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

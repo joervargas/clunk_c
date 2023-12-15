@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "ClunkEngine/ClunkEngine/Core",
+		"source" : "ClunkEngine/ClunkEngine/Core"
+	}
+}
